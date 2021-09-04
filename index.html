@@ -6,13 +6,17 @@
     <title>
         Andrés Molina - CV
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
-<body bgcolor="#5371ac">
-    <font color="ghostwhite">
-        <hr>
-        <img src="assets/IMG-20180412-WA0064.jpg" align="right" width="110">
-        <div>
+<body>
+    <hr>
+    <div class="header">
+        <div class="card">
             <h1>
                 Andrés Manuel Molina Aceves
             </h1>
@@ -20,241 +24,300 @@
                 Software Developer
             </h2>
         </div>
-        <hr>
-        <table width="100%">
-            <tr>
-                <td width="33.3%" bgcolor="#667799">
+        <div class="profile-pic">
+            <img src="assets/IMG-20180412-WA0064.jpg" class="profile-pic">
+        </div>
+    </div>
+    <hr>
+    <table width="100%">
+        <tr>
+            <td>
+                <div class="card">
                     <h3>
                         Contact Information
                     </h3>
                     <hr>
-                    <li>
+                    <div>
                         <a href="mailto:andres.molina2886@alumnos.udg.mx">
-                            <font color="ghostwhite">andres.molina2886@alumnos.udg.mx</font>
+                            andres.molina2886@alumnos.udg.mx
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div>
                         <a href="andresmolinaceti@gmail.com">
-                            <font color="ghostwhite">andresmolinaceti@gmail.com</font>
+                            andresmolinaceti@gmail.com
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div>
                         <a href="tel:3321737190">
-                            <font color="ghostwhite">3321737190</font>
+                            3321737190
                         </a>
-                    </li>
-                    <br>
+                    </div>
 
                     <h3>
                         Personal Interests
                     </h3>
                     <hr>
-                    <p>My main focus right now is to learn as much programming skills as possible<br>I would love to be able to apply my knowledge in the scientific field</p>
-                </td>
-                <td width="33.3%" bgcolor="#6c7993">
+                    <p>My main focus right now is to learn as much programming skills as possible<br>I would love to be
+                        able
+                        to apply my knowledge in the scientific field</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
                     <h3>
                         Education
                     </h3>
                     <hr>
-                    <span>
-                        <img src="assets/1200px-Escudo_UdeG.svg.png" width="50" height="45" align="left">
-                        Universidad de Guadalajara<br>
-                        Ingeniería informatica <br>
-                        <i>2020 - Currently</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <span>
-                        <img src="assets/CETI_Logo.png" width="50" align="left">
-                        Centro de Enseñanza Técnica Industrial<br>
-                        Tecnólogo en Desarrollo de Software <br>
-                        <i>2015 - 2019</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <span>
-                        <img src="assets/LOGO-Sec-47.png" width="50" align="left">
-                        Secundaria Mixta N.47<br>
-                        Middle School Education <br>
-                        <i>2012 - 2015</i>                        
-                    </span>
-                    
-                </td>
-                <td width="33.3%" bgcolor="#737b8c">
+                    <div class="span-list">
+                        <div class="info-card">
+                            <img src="assets/1200px-Escudo_UdeG.svg.png" class="logo">
+                            <div>
+                                Universidad de Guadalajara<br>
+                                Ingeniería informatica <br>
+                                <i>2020 - Currently</i>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <img src="assets/CETI_Logo.png" class="logo">
+                            <div>
+                                Centro de Enseñanza Técnica Industrial<br>
+                                Tecnólogo en Desarrollo de Software <br>
+                                <i>2015 - 2019</i>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <img src="assets/LOGO-Sec-47.png" class="logo">
+                            <div>
+                                Secundaria Mixta N.47<br>
+                                Middle School Education <br>
+                                <i>2012 - 2015</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card">
                     <h3>
-                        Hard Skills       
+                        Hard Skills
                     </h3>
                     <hr>
-                    <li>
-                        Angular--------------------------80%
-                    </li>
-                    <li>
-                        Java EE--------------------------75%
-                    </li>
-                    <li>
-                        C/C++----------------------------80%
-                    </li>
-                    <li>
-                        HTML/CSS/JS------------------85%
-                    </li>
-                    <li>
-                        Python----------------------------60%
-                    </li>
-                    <li>
-                        C#---------------------------------70%
-                    </li>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </td>
-            </tr>
-            <tr>
-                <td width="33.3%" bgcolor="#667799" >
+                    <div class="skill">
+                        Angular
+                        <div class="progress">
+                            <div class="progress-value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        Java <div class="progress">
+                            <div class="progress-value" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        C/C++<div class="progress">
+                            <div class="progress-value" style="width: 80%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        HTML/CSS/JS<div class="progress">
+                            <div class="progress-value" style="width: 80%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        Python<div class="progress">
+                            <div class="progress-value" style="width: 50%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        C#<div class="progress">
+                            <div class="progress-value" style="width: 90%;"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card">
                     <h3>
                         Professional experience
                     </h3>
                     <hr>
-                    <span>
-                        <img src="assets/1539218466925.png" width="50" align="left">
-                        Altomobile<br>
-                        QA Engineer <br>
-                        <i>2021 - Currently</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <span>
-                        <img src="assets/logo_bioesol_alt.png" width="50" height="40" align="left">
-                        Esol Technologies<br>
-                        Jr. Developer <br>
-                        <i>2020 - 2021</i>                         
-                    </span>
-                    <br>
-                    <br>
-                    <span>
-                        <img src="assets/CETI_Logo.png" width="50" align="left">
-                        Centro de Enseñanza Técnica Industrial<br>
-                        Spanish Teacher <br>
-                        <i>2019 - 2020</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <span>
-                        <img src="assets/fiverr.png" width="50" align="left">
-                        Fiverr<br>
-                        Freelancer <br>
-                        <i>2020 - currently</i>                        
-                    </span>
-                </td>
-                <td width="33.3%" bgcolor="#6c7993">
+                    <div class="span-list">
+                        <div class="info-card">
+                            <img src="assets/1539218466925.png" class="logo">
+                            <div>
+                                Altomobile<br>
+                                QA Engineer <br>
+                                <i>2021 - Currently</i>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+
+                            <img src="assets/logo_bioesol_alt.png" class="logo">
+                            <div></div>
+                            Esol Technologies<br>
+                            Jr. Developer <br>
+                            <i>2020 - 2021</i>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+
+                        <img src="assets/CETI_Logo.png" class="logo">
+                        <div>
+                            Centro de Enseñanza Técnica Industrial<br>
+                            Spanish Teacher <br>
+                            <i>2019 - 2020</i>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+
+                        <img src="assets/fiverr.png" class="logo">
+                        <div>
+                            Fiverr<br>
+                            Freelancer <br>
+                            <i>2020 - currently</i>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </td>
+            <td>
+                <div class="card">
                     <h3>
                         Projects
                     </h3>
                     <hr>
-                    <span>
+                    <div class="project-info">
                         ES485 board firmware development<br>
                         GPRS and WiFi capable board<br>
-                        <i>2020</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <span>
+                        <i>2020</i>
+                    </div>
+                    <div class="project-info">
                         "Heroes Crusade"<br>
                         2D Multiplayer online game<br>
-                        <i>2019</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <span>
+                        <i>2019</i>
+                    </div>
+                    <div class="project-info">
                         NASA Zero robotics<br>
-                        Programming competition (1st Mexico place)<br>
-                        <i>2017</i>                        
-                    </span>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </td>
-                <td width="33.3%" bgcolor="#737b8c">
+                        Programming competition<br>
+                        <i>2017</i>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card">
                     <h3>
                         Soft Skills
                     </h3>
                     <hr>
-                    <li>
-                        Creativity--------------------------80%
-                    </li>
-                    <li>
-                        Adaptabilty------------------------100%
-                    </li>
-                    <li>
-                        Critical thinking-------------------80%
-                    </li>
-                    <li>
-                        Teamwork--------------------------85%
-                    </li>
-                    <br>
-                    <br>
-                    <br>
+                    <div class="skill">
+                        Creativity<div class="progress">
+                            <div class="progress-value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        Adaptabilty<div class="progress">
+                            <div class="progress-value" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        Critical<div class="progress">
+                            <div class="progress-value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        Teamwork<div class="progress">
+                            <div class="progress-value" style="width: 85%;"></div>
+                        </div>
+                    </div>
                     <h3>
                         Idioms
                     </h3>
                     <hr>
-                    <li>
-                        Snpanish-------------------100%
-                    </li>
-                    <li>
-                        English------------------------90%
-                    </li>
-                    <br>
-                    <br>
-                </td>
-            </tr>
-            <tr>
-                <td width="33.3%" bgcolor="#667799">
+                    <div class="skill">
+                        Snpanish<div class="progress">
+                            <div class="progress-value" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        English<div class="progress">
+                            <div class="progress-value" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card">
                     <h3>
                         Software
                     </h3>
                     <hr>
-                    <li>
-                        JetBrains IDE's--------------------------70%
-                    </li>
-                    <li>
-                        Visual Studio Code----------------------90%
-                    </li>
-                    <li>
-                        Github------------------------80%
-                    </li>
-                    <li>
-                        Azure Data Studio--------------------------55%
-                    </li>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </td>
-                <td width="33.3%" bgcolor="#6c7993">
+                    <div class="skill">
+                        JetBrains IDE's
+
+                        <div class="progress">
+                            <div class="progress-value" style="width: 70%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        Visual Studio Code
+                        <div class="progress">
+                            <div class="progress-value" style="width: 90%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        Github
+                        <div class="progress">
+                            <div class="progress-value" style="width: 80%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        Azure Data Studio
+                        <div class="progress">
+                            <div class="progress-value" style="width: 55%;"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card">
                     <h3>
                         References
                     </h3>
                     <hr>
                     <span>
                         pascal_peejee (Fiverr review)<br>
-                        This is the second time I've been working with Andres and it's a real pleasure. He really understands my requests and his realization is exemplary. I really recommend his job.<br>                       
+                        This is the second time I've been working with Andres and it's a real pleasure. He really
+                        understands my requests and his realization is exemplary. I really recommend his job.<br>
                     </span>
                     <br>
                     <br>
                     <span>
                         messiah_rmi (Fiverr review)<br>
-                        Andres was a really great person! He helped me a lot and he always responded quickly. I highly recommend that you guys reach out to him because you won't regret it :) If I ever need anything, I will definitely come to him again!!<br>                     
+                        Andres was a really great person! He helped me a lot and he always responded quickly. I highly
+                        recommend that you guys reach out to him because you won't regret it :) If I ever need anything,
+                        I
+                        will definitely come to him again!!<br>
                     </span>
-                </td>
-            </tr>
-        </table>
-
-
-
-    </font>
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>

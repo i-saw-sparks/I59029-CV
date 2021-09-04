@@ -1,0 +1,139 @@
+body {
+    background-color: #5371ac;
+    font-family: Roboto;
+    color: ghostwhite;
+    animation-duration: 2s;
+    animation-name: bg-anim;
+}
+
+@keyframes bg-anim {
+    from {
+        background-color: #7da0e6;
+    }
+    to {
+        background-color: #5371ac;
+    }
+}
+
+a {
+    color: ghostwhite;
+}
+
+td {
+    width: 33.33%;
+    padding: 13px;
+    height: 1px;
+}
+
+hr {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.profile-pic {
+    padding: 10px;
+    margin-left: auto;
+    align-self: center;
+    box-shadow: 2px 2px 4px #465f91, -2px -2px 4px #6b90da;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+img.profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 2px 2px 4px #465f91, -2px -2px 4px #6b90da;
+    height: 100%;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+.span-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 5px;
+    animation-duration: 3s;
+    background-color: #465f91;
+    animation-name: info-anim;
+    border-radius: 5px;
+}
+
+@keyframes info-anim {
+    from {
+        background-color: #7da0e6;
+    }
+    to {
+        background-color: #465f91;
+    }
+}
+
+.project-info {
+    margin-bottom: 30px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.progress {
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 25px;
+    width: 400px;
+}
+
+.progress-value {
+    
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+}
